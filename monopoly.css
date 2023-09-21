@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+table,tr,td{
+    border: 2px solid rgb(0, 0, 0);
+    width: 40vw;
+    height: 7vh;
+    margin: 70px auto;
+    border-collapse: collapse;
+    background-color: rgb(202,231,208);
+
+}
+.frow{
+    height: 2.5vh;
+    margin-top: 28px;
+    background-color: rgb(225, 0, 0) ;
+}
+.ffrow{
+    height: 2.5vh;
+    margin-top: 28px;
+    background-color: rgb(255, 255, 0);
+}
+.srow{
+    height: 7vh;
+    width: 2vw;
+    transform: translate(62px);
+    background-color: rgb(228,147,39);
+}
+.ssrow{
+    height: 7vh;
+    width: 2vw;
+    transform: translate(62px);
+    background-color:rgb(201,57,139) ;
+}
+.lrow{
+    height: 3vh;
+    margin-top: -28px ;
+    background-color: rgb(170,226,248) ;
+}
+.llrow{
+    height: 3vh;
+    margin-top: -28px;
+    background-color: rgb(151,85,55) ;
+}
+.slrow{
+    
+    height: 7vh;
+    width: 2vw;
+    background-color: rgb(29,178,89);
+
+}
+.sslrow{
+    
+    height: 7vh;
+    width: 2vw;
+    background-color:rgb(2,115,189) ;
+}
+.monopoly{
+    width: 20vw;
+    background-color: crimson;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: -340px auto;
+    transform: rotate(-45deg);
+    font-size: large;
+}
+.box1{
+    border: 2px dashed rgb(0,0,0);
+    height: 10vh ;
+    width: 9vw;
+    margin: 150px 520px;
+    transform: rotate(-45deg);
+    background-color: ;
+
+}
+.box2{
+    border: 2px dashed rgb(0,0,0);
+    height: 10vh ;
+    width: 9vw;
+    transform: rotate(-45deg);
+    position: absolute;
+    left: 53%;
+    bottom: 26%;
+
+}
+.blue{
+    height: 8vh;
+    width: 8vw;
+    margin:3px auto;
+    background-color: rgb(100,207,246);
+}
+.blue2{
+    height: 8vh;
+    width: 8vw;
+    margin:3px auto;
+    background-color: rgb(246,119,32);
+}
+.question{
+    text-align: center;
+    font-size: xxx-large;
+    position: relative;
+    top: -10%;
+    color: rgb(255, 255, 255);
+
+}
+.lrowh1{
+    text-align: center;
+    color: rgb(187,23,114);
+    font-size: xxx-large;
+}
+.frowh1{
+    text-align: center;
+    color: rgb(36,171,209);
+    font-size: xx-large;
+    transform: rotate(180deg);
+}
+.bigB{
+    /* border: 2px solid rgb(0, 0, 0); */
+    height: 8vh;
+    margin-top: -10px;
+    width: 4vw;
+    position: relative;
+    bottom: -14%;
+    left: 38%;
+    background-color: rgb(249,149,29);
+}
+.smallB{
+    /* border: 2px solid rgb(0, 0, 0); */
+    height: 6vh;
+    margin-top: -30px;
+    width: 2vw;
+    position: relative;
+    bottom: 20%;
+    left: 58%;
+    transform: rotate(-40deg);
+    background-color: rgb(255, 255, 255);
+
+}
